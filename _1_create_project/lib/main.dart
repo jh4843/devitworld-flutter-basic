@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import './sub/stateless_sample_page.dart';
 import './sub/statefull_sample_page.dart';
+import './sub/stateless_sample_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -69,6 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
               child: const Text('Go to Stateless Sample Page'),
             ),
+            const SizedBox(height: 8),
             ElevatedButton(
               onPressed: () {
                 Navigator.of(context).push(
