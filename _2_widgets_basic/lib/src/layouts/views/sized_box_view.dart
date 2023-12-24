@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MySizedBoxView extends StatelessWidget {
   const MySizedBoxView({super.key});
 
-  final String _title = 'Sized Box Widget';
+  final String _title = '(Layout) Sized Box Widget';
 
   @override
   Widget build(BuildContext context) {

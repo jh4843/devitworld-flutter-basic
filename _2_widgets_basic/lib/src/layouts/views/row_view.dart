@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyRowView extends StatelessWidget {
   const MyRowView({super.key});
 
-  final String _title = 'Row Widget';
+  final String _title = '(Layout) Row Widget';
 
   @override
   Widget build(BuildContext context) {

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyWrapView extends StatelessWidget {
   const MyWrapView({super.key});
 
-  final String _title = 'Wrap Widget';
+  final String _title = '(Layout) Wrap Widget';
 
   @override
   Widget build(BuildContext context) {

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyExpandedView extends StatelessWidget {
   const MyExpandedView({super.key});
 
-  final String _title = 'Expanded Widget';
+  final String _title = '(Layout) Expanded Widget';
 
   @override
   Widget build(BuildContext context) {

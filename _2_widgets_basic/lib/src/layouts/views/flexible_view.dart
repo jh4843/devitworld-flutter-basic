@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyFlexibleView extends StatelessWidget {
   const MyFlexibleView({super.key});
 
-  final String _title = 'Flexible Widget';
+  final String _title = '(Layout) Flexible Widget';
 
   @override
   Widget build(BuildContext context) {

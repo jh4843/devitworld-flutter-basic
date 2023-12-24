@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyColView extends StatelessWidget {
   const MyColView({super.key});
 
-  final String _title = 'Column Widget';
+  final String _title = '(Layout) Column Widget';
 
   @override
   Widget build(BuildContext context) {

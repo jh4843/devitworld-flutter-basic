@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyPaddingView extends StatelessWidget {
   const MyPaddingView({super.key});
 
-  final String _title = 'Padding Widget';
+  final String _title = '(Layout) Padding Widget';
 
   @override
   Widget build(BuildContext context) {

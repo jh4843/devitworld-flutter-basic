@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyStackPositionedView extends StatelessWidget {
   const MyStackPositionedView({super.key});
 
-  final String _title = 'StackPositioned Widget';
+  final String _title = '(Layout) StackPositioned Widget';
 
   @override
   Widget build(BuildContext context) {

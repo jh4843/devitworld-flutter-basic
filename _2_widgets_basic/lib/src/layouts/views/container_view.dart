@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyContainerView extends StatelessWidget {
   const MyContainerView({super.key});
 
-  final String _title = 'Container Widget';
+  final String _title = '(Layout) Container Widget';
 
   @override
   Widget build(BuildContext context) {

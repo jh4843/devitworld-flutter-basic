@@ -1,3 +1,4 @@
+import 'package:_2_widgets_basic/src/inputs/index.dart';
 import 'package:_2_widgets_basic/src/layouts/index.dart';
 import 'package:flutter/material.dart';
 
@@ -18,9 +19,17 @@ abstract class RoutePath {
   static const String layoutStackPositionedView = '$layout/stackpositionedview';
   static const String layoutWrapView = '$layout/wrapview';
 
+  // input
+  static const String input = '/input';
+  static const String inputTextField = '$input/textfield';
+  static const String inputCombobox = '$input/combobox';
+  static const String inputRadio = '$input/radio';
+  static const String inputSlider = '$input/slider';
+
   static Route<dynamic>? onGenerateRoute(RouteSettings settings) {
     late final Widget page;
     switch (settings.name) {
+      // layout
       case RoutePath.layoutRow:
         page = const MyRowView();
         break;
@@ -56,6 +65,19 @@ abstract class RoutePath {
         break;
       case RoutePath.layoutWrapView:
         page = const MyWrapView();
+        break;
+      // input
+      case RoutePath.inputTextField:
+        page = const MyTextFieldView();
+        break;
+      case RoutePath.inputCombobox:
+        page = const MyComboboxView();
+        break;
+      case RoutePath.inputRadio:
+        page = const MyRadioView();
+        break;
+      case RoutePath.inputSlider:
+        page = const MySliderView();
         break;
       default:
         page = const Text("Page not found!");

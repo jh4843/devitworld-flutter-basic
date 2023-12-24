@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MySingleChildScrollView extends StatelessWidget {
   const MySingleChildScrollView({super.key});
 
-  final String _title = 'Single Child Scroll Widget';
+  final String _title = '(Layout) Single Child Scroll Widget';
 
   @override
   Widget build(BuildContext context) {

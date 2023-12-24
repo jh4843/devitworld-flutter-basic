@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class MyGridView extends StatelessWidget {
   const MyGridView({super.key});
 
-  final String _title = 'Grid Widget';
+  final String _title = '(Layout) Grid Widget';
 
   @override
   Widget build(BuildContext context) {
