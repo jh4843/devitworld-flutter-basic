@@ -19,6 +19,11 @@ class RouteFAB extends StatelessWidget {
           child: const Icon(Icons.drive_file_rename_outline_rounded),
           label: 'Input',
           onTap: () => Navigator.pushNamed(context, RoutePath.inputTextField),
+        ),
+        SpeedDialChild(
+          child: const Icon(Icons.perm_media),
+          label: 'Assets',
+          onTap: () => Navigator.pushNamed(context, RoutePath.assetFont),
         )
       ],
     );

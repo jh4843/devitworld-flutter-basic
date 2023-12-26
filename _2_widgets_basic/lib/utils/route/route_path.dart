@@ -1,3 +1,4 @@
+import 'package:_2_widgets_basic/src/assets/index.dart';
 import 'package:_2_widgets_basic/src/inputs/index.dart';
 import 'package:_2_widgets_basic/src/layouts/index.dart';
 import 'package:flutter/material.dart';
@@ -25,6 +26,12 @@ abstract class RoutePath {
   static const String inputCombobox = '$input/combobox';
   static const String inputRadio = '$input/radio';
   static const String inputSlider = '$input/slider';
+
+  // assets
+  static const String asset = '/asset';
+  static const String assetFont = '$asset/font';
+  static const String assetIcon = '$asset/icon';
+  static const String assetImage = '$asset/image';
 
   static Route<dynamic>? onGenerateRoute(RouteSettings settings) {
     late final Widget page;
@@ -78,6 +85,15 @@ abstract class RoutePath {
         break;
       case RoutePath.inputSlider:
         page = const MySliderView();
+        break;
+      case RoutePath.assetFont:
+        page = const MyFontsView();
+        break;
+      case RoutePath.assetIcon:
+        page = const MyIconsView();
+        break;
+      case RoutePath.assetImage:
+        page = const MyImagesView();
         break;
       default:
         page = const Text("Page not found!");
