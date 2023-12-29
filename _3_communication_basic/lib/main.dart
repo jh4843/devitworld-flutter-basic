@@ -1,6 +1,6 @@
-// route
-import 'package:_2_widgets_basic/utils/route/route_path.dart';
+import 'package:_3_communication_basic/utils/route/route_path.dart';
 import 'package:flutter/material.dart';
+// route
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +13,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Widgets Basic',
+      title: 'Communication Basic Example',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      initialRoute: RoutePath.layoutRow,
+      initialRoute: RoutePath.httpHttp,
       onGenerateRoute: RoutePath.onGenerateRoute,
     );
   }
