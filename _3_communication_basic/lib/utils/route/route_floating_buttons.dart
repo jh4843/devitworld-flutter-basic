@@ -14,6 +14,11 @@ class RouteFAB extends StatelessWidget {
           child: const Icon(Icons.http),
           label: 'Http',
           onTap: () => Navigator.pushNamed(context, RoutePath.httpHttp),
+        ),
+        SpeedDialChild(
+          child: const Icon(Icons.folder_copy_outlined),
+          label: 'File Manager',
+          onTap: () => Navigator.pushNamed(context, RoutePath.fileMangerLocal),
         )
       ],
     );
