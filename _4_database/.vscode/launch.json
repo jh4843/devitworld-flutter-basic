@@ -5,30 +5,21 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "_1_create_project",
-      "cwd": "_1_create_project",
+      "name": "_4_database",
       "request": "launch",
       "type": "dart"
     },
     {
-      "name": "_1_create_project (profile mode)",
-      "cwd": "_1_create_project",
+      "name": "_4_database (profile mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "profile"
     },
     {
-      "name": "_1_create_project (release mode)",
-      "cwd": "_1_create_project",
+      "name": "_4_database (release mode)",
       "request": "launch",
       "type": "dart",
       "flutterMode": "release"
-    },
-    {
-      "name": "_4_database",
-      "cwd": "_4_database",
-      "request": "launch",
-      "type": "dart"
     }
   ]
 }
