@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560327441927",
+    "project_id": "devitworld-tutorial",
+    "storage_bucket": "devitworld-tutorial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560327441927:android:1dfe940becf9bf12ce74a2",
+        "android_client_info": {
+          "package_name": "com.example.u_7_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFbJ4OQ9Xn98l_6mGJfvwTTdh04PwWQPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
