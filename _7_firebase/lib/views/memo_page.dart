@@ -5,6 +5,7 @@
 
 // import 'memoAdd.dart';
 // import 'memoDetail.dart';
+import 'package:_7_firebase/views/memo_detail.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
@@ -73,7 +74,22 @@ class _MemoPage extends State<MemoPage> {
                           padding: const EdgeInsets.only(top: 20, bottom: 20),
                           child: SizedBox(
                             child: GestureDetector(
-                              onTap: () {},
+                              onTap: () async {
+                                Memo? memo = await Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) => MemoDetailPage(
+                                      reference!,
+                                      memos[index],
+                                    ),
+                                  ),
+                                );
+
+                                if (memo != null) {
+                                  setState(() {
+                                    memos[index] = memo;
+                                  });
+                                }
+                              },
                               onLongPress: () {},
                               child: Text(memos[index].content),
                             ),
