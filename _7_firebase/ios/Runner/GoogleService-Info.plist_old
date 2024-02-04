@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CLIENT_ID</key>
-	<string>560327441927-g3pnfk1r62i2m6mjonbcbsefssdc3mdr.apps.googleusercontent.com</string>
-	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.560327441927-g3pnfk1r62i2m6mjonbcbsefssdc3mdr</string>
-	<key>ANDROID_CLIENT_ID</key>
-	<string>560327441927-kc80b6d5na8glqgplqgmvnmekhm4fmen.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCHVWLX78_aPgdRI6nI5lGz9Bsar3gyUEM</string>
 	<key>GCM_SENDER_ID</key>
@@ -32,7 +26,5 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:560327441927:ios:04174072e33b2f0dce74a2</string>
-	<key>DATABASE_URL</key>
-	<string>https://devitworld-tutorial-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

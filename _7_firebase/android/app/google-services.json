@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "560327441927",
+    "firebase_url": "https://devitworld-tutorial-default-rtdb.firebaseio.com",
     "project_id": "devitworld-tutorial",
     "storage_bucket": "devitworld-tutorial.appspot.com"
   },
@@ -12,7 +13,20 @@
           "package_name": "com.example.u_7_firebase"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "560327441927-kc80b6d5na8glqgplqgmvnmekhm4fmen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.u_7_firebase",
+            "certificate_hash": "14b3dcc5003239266a729d349a71edc7ca82bef1"
+          }
+        },
+        {
+          "client_id": "560327441927-glr29fsfud6t27sedies432b73dkl71m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDFbJ4OQ9Xn98l_6mGJfvwTTdh04PwWQPY"
@@ -20,7 +34,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560327441927-glr29fsfud6t27sedies432b73dkl71m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "560327441927-g3pnfk1r62i2m6mjonbcbsefssdc3mdr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.7Firebase"
+              }
+            }
+          ]
         }
       }
     }
