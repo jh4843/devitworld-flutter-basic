@@ -1,49 +1,78 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
+# Flutter/Dart/Pub 관련 파일들
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+*.lock
 
-# IntelliJ related
+**/generated_plugin_registrant.cc
+**/generated_plugin_registrant.h
+**/pubpec.lock
+
+# Android 관련 파일들
+android/.gradle/
+android/.idea/
+android/.vscode/
+android/build/
+android/app/build/
+
+# iOS 관련 파일들
+ios/Flutter/flutter_export_environment.sh
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+
+# Xcode 관련 파일들
+**/*.xcodeproj/*
+!**/*.xcodeproj/project.pbxproj
+!**/*.xcodeproj/xcshareddata/xcschemes/*.xcscheme
+**/*.xcworkspace/*
+!**/*.xcworkspace/contents.xcworkspacedata
+!**/*.xcworkspace/xcshareddata/*.xcscmblueprint
+*.xcuserstate
+
+# IntelliJ related files
+.idea/
 *.iml
 *.ipr
 *.iws
-.idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code 관련 파일들
+.vscode/
 
-# Flutter/Dart/Pub related
+# MacOS 관련 파일들
+macos/.flutter-plugins
+macos/.flutter-plugins-dependencies
+macos/.flutter-plugins-version
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Flutter/Generated.xcconfig
+
+# Web 관련 파일들
+web/.dart_tool/
+web/.packages
+web/build/
+
+# Windows 관련 파일들
+windows/.dart_tool/
+windows/.flutter-plugins
+windows/.flutter-plugins-dependencies
+windows/Flutter/ephemeral/
+windows/Flutter/GeneratedPluginRegistrant.cpp
+windows/flutter/generated_plugin_registrant.h
+
+# Linux 관련 파일들
+linux/.dart_tool/
+linux/.flutter-plugins
+linux/.flutter-plugins-dependencies
+linux/Flutter/ephemeral/
+linux/Flutter/GeneratedPluginRegistrant.cc
+linux/flutter/generated_plugin_registrant.h
+
+# Dart package specific files
 **/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-/build/
 
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
-
-# Dart Tool
-**/.dart_tool/
-
-
+# Obsolete files
+.dart_tools/
